@@ -65,6 +65,27 @@ return {
   },
 
   {
+    "luckasRanarison/tailwind-tools.nvim",
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
+    opts = {}
+  },
+
+  {
+    "NvChad/nvim-colorizer.lua",
+    config = function()
+      require "configs.nvim-colorizer"
+    end,
+  },
+
+  {
+    "hrsh7th/nvim-cmp",
+    dependencies = {
+      { "roobert/tailwindcss-colorizer-cmp.nvim", config = true },
+    },
+    opts = overrides.nvimCmp,
+  },
+
+  {
     "kdheepak/lazygit.nvim",
     cmd = {
       "LazyGit",
