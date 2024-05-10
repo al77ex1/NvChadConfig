@@ -12,6 +12,7 @@ map("i", "jk", "<ESC>")
 map("n", "<leader>gg", "<cmd>LazyGit<cr>")
 map("n", "cll", "iconsole.log();<Esc>ba")
 map("i", "cll", "console.log();<Esc>ba")
+map("n",  "<leader>sr", "<cmd>Spectre<cr>", { desc = "Replace in Files" })
 
 map("i", "<C-g>", function()
   return vim.fn["codeium#Accept"]()
