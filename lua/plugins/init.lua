@@ -93,6 +93,13 @@ return {
     opts = { open_cmd = "noswapfile vnew" },
   },
 
+  -- navigate your code with search labels
+  {
+    "folke/flash.nvim",
+    event = "VeryLazy",
+    opts = overrides.flash,
+  },
+
   {
     "kdheepak/lazygit.nvim",
     cmd = {

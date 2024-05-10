@@ -31,6 +31,14 @@ M.mason = {
   },
 }
 
+M.flash = {
+  modes = {
+    char = {
+      jump_labels = true
+    }
+  }
+}
+
 M.nvimCmp = function(_, opts)
   local format_kinds = opts.formatting.format
   opts.formatting.format = function(entry, item)
