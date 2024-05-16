@@ -85,6 +85,12 @@ return {
     opts = overrides.nvimCmp,
   },
 
+  {
+    "vuki656/package-info.nvim",
+    event = "VeryLazy",
+    opts = {}
+  },
+
   -- search/replace in multiple files
   {
     "nvim-pack/nvim-spectre",
