@@ -57,6 +57,12 @@ return {
   },
 
   {
+    "stevearc/dressing.nvim",
+    lazy = false,
+    opts = {}
+  },
+
+  {
     "luckasRanarison/tailwind-tools.nvim",
     dependencies = { "nvim-treesitter/nvim-treesitter" },
     opts = {}
